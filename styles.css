@@ -8,10 +8,32 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
     max-width: 300px;
     margin: 50px auto;
     text-align: center;
+}
+
+.container-calendar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container-notas {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container-notas:hover {
+    background-color: #dde5b6; /* Adicionado o efeito de hover */
 }
 
 .logo {
@@ -21,13 +43,46 @@ body {
     filter: invert(1); 
 }
 
+.notes {
+    width: 50px; 
+    margin-right: 10px;
+    margin-left: 40px;
+    filter: invert(1);
+}
+
 label{
     color: white;
     font-weight: bold;
 }
 
+h1{
+    color: white;
+    font-weight: bold; 
+}
+
+h3{
+    margin-right: 40px;
+    color: white;
+    font-weight: bold;  
+}
+
+.linha-divisoria {
+    border: none;
+    border-top: 1px dashed white;
+    width: 100%;
+}
+
 
 input[type="text"] {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+select {
     border: none;
     border-radius: 10px;
     width: 100%;

@@ -9,8 +9,14 @@
 <body>
     <div class="container">
         <img src="img/brain.png" alt="logo" class="logo">
-        <label for="sentimento">Como você está se sentindo hoje?</label>
-        <input type="text" id="sentimento" placeholder="Digite aqui...">
+        <label for="sentimento">Olá, Maia!</label>
+        <select id="genero">
+            <option value="" disabled selected hidden>Selecione seu gênero</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+        <input type="text" id="peso" placeholder="Digite aqui seu peso">
+        <input type="text" id="peso" placeholder="Digite aqui seu altura">
         <button onclick="registrarSentimento()">Registrar</button>
     </div>
 
