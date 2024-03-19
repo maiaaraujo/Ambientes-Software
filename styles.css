@@ -32,10 +32,6 @@ body {
 }
 
 
-.container-notas:hover {
-    background-color: #dde5b6; /* Adicionado o efeito de hover */
-}
-
 .logo {
     display: block; 
     margin: 0 auto; 
@@ -73,7 +69,7 @@ h3{
 }
 
 
-input[type="text"] {
+input {
     border: none;
     border-radius: 10px;
     width: 100%;

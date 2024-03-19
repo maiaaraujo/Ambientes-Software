@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Bem-Estar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/brain.png" alt="logo" class="logo">
+        <label for="sentimento">Olá, Maia!</label>
+        <select id="genero">
+            <option value="" disabled selected hidden>Selecione seu gênero</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+        <input type="text" id="peso" placeholder="Digite aqui seu peso">
+        <input type="text" id="peso" placeholder="Digite aqui sua altura">
+        <button onclick="registrarSentimento('notas')">Registrar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
